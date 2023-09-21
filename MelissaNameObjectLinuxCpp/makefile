@@ -3,7 +3,7 @@
 CXX = g++
 CXXFLAGS = -Wall -Wextra -pedantic -std=c++11 -g
 LDLIBS = -lmdName
-LDFLAGS = -L/home/emaiiii/MdLinuxExamples/melissanameobjectlinuxcpp/MelissaNameObjectLinuxCpp/Build
+LDFLAGS = -L/home/emaiiii/MdLinuxExamples/NameObject-Cpp-Linux/MelissaNameObjectLinuxCpp/Build
 RM = rm -f
 
 OUT_DIR = Build
