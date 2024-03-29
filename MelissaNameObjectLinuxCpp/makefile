@@ -13,4 +13,3 @@ MelissaNameObjectLinuxCpp: Main.cpp NameObject.cpp mdName.h mdNameEnums.h | $(OU
 
 clean:
 	$(RM) *.o $(OUT_DIR)/MelissaNameObjectLinuxCpp
-
