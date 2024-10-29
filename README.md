@@ -27,7 +27,7 @@ And return
 ## Tested Environments
 - Linux 64-bit g++ 9.4.0, Ubuntu 20.04.05 LTS
 - GNU Make 4.2.1
-- Melissa data files for 2024-09
+- Melissa data files for 2024-10
 
 ## Required File(s) and Programs
 
@@ -82,8 +82,8 @@ Once you have finished the installations, you should be able to verify that they
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/NameObject-Cpp-Linux
-$ cd NameObject-Cpp-Linux
+git clone https://github.com/MelissaData/NameObject-Cpp-Linux
+cd NameObject-Cpp-Linux
 ```
 
 #### Set up Melissa Updater 
@@ -137,25 +137,25 @@ Parameters:
 When you have modified the script to match your data location, let's run the script. There are two modes:
 - Interactive 
 
-	The script will prompt the user for a name, then use the provided name to test Name Object. For example:
-	```
-	$ ./MelissaNameObjectLinuxCpp.sh
-	```
+  The script will prompt the user for a name, then use the provided name to test Name Object. For example:
+  ```
+  ./MelissaNameObjectLinuxCpp.sh
+  ```
   For quiet mode:
   ```
-  $ ./MelissaNameObjectLinuxCpp.sh --quiet
+  ./MelissaNameObjectLinuxCpp.sh --quiet
   ```
 - Command Line 
 
-	You can pass a name in ```--name``` parameter and a license string in ```--license``` parameter to test Name Object. For example:
-	```
-  $ ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa"
-  $ ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa" --license "<your_license_string>"
+  You can pass a name in ```--name``` parameter and a license string in ```--license``` parameter to test Name Object. For example:
   ```
-	For quiet mode:
+  ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa"
+  ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa" --license "<your_license_string>"
   ```
-  $ ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa" --quiet
-  $ ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa" --license "<your_license_string>" --quiet
+  For quiet mode:
+  ```
+  ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa" --quiet
+  ./MelissaNameObjectLinuxCpp.sh --name "Ray Melissa" --license "<your_license_string>" --quiet
   ```
 This is the expected output from a successful setup for interactive mode:
 
