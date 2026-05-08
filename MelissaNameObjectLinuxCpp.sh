@@ -52,7 +52,7 @@ while [ $# -gt 0 ] ; do
 done
 
 # ######################### Config ###########################
-RELEASE_VERSION='2026.04'
+RELEASE_VERSION='2026.05'
 ProductName="DQ_NAME_DATA"
 
 # Uses the location of the .sh file 
